@@ -1,4 +1,13 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>Spesial For Napnap</title> <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script> <script src="https://dekatutorial.github.io/crd/s.js"></script> <link rel="stylesheet" type="text/css" href="style.css" /> </head> <body> <?php if(isset($_GET['pesan'])){ echo "<div id='ccp'>"; $fp = fopen('p.txt', 'r'); fgets($fp); while(!feof($fp)){ echo "".fgets($fp); } fclose($fp); echo "</div></body></html>"; die; } ?> <script>dt()</script>
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> <meta charset="UTF-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <title>Spesial For Napnap</title> 
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js">
+        </script> <script src="https://dekatutorial.github.io/crd/s.js"></script> 
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+    <script>dt()</script>
     <div class="ctnr">
       <div class="lv">
         <img src="https://dekatutorial.github.io/crd/lv.svg" />
@@ -53,7 +62,7 @@ konten = [
   },
 ];
 
-musik = "https://github.com/anouther/only-napnap/blob/85736180b6609e8d715646b6d99aefe252874e36/Bitterlove.mp3";
+musik = "Bitterlove.mp3";
 nomorWhatsapp = "t.me/benxsat";
 
 /*=========================*/
