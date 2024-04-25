@@ -7,7 +7,7 @@
         </script> <script src="https://dekatutorial.github.io/crd/s.js"></script> 
         <link rel="stylesheet" type="text/css" href="style.css" /> 
     </head>
-    <script>dt()</script>
+   <?php if(isset($_GET['pesan'])){ echo "<div id='ccp'>"; $fp = fopen('p.txt', 'r'); fgets($fp); while(!feof($fp)){ echo "".fgets($fp); } fclose($fp); echo "</div></body></html>"; die; } ?> <script>dt()</script>
     <div class="ctnr">
       <div class="lv">
         <img src="https://dekatutorial.github.io/crd/lv.svg" />
