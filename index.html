@@ -1,13 +1,6 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-    <head> <meta charset="UTF-8" /> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
-        <title>Spesial For Napnap</title> 
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js">
-        </script> <script src="https://dekatutorial.github.io/crd/s.js"></script> 
-        <link rel="stylesheet" type="text/css" href="style.css" /> 
-    </head>
-  <div class="ctnr">
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>Spesial For Napnap</title> <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script> <script src="https://dekatutorial.github.io/crd/s.js"></script> <link rel="stylesheet" type="text/css" href="style.css" /> </head> <body> 
+  <script>dt()</script>
+    <div class="ctnr">
       <div class="lv">
         <img src="https://dekatutorial.github.io/crd/lv.svg" />
         <p>Klik Love-nya</p>
@@ -17,6 +10,10 @@
         <button class="btn send">[ Kirim Pesan ]</button>
       </div>
     </div>
+  <audio id="background-music" autoplay loop>
+    <source src="Bitterlove.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 <script>
 konten = [
   {
@@ -57,13 +54,12 @@ konten = [
   },
   {
     gambar: "melas.jpg",
-    ucapan: "tatapan napnap kalau ga mau ditinggal, bikin ga tega nolak",
+    ucapan: "tatapannya kalau ga mau ditinggal, bikin ga tega nolak",
   },
 ];
+
 musik = "bitterlove.mp3";
-nomorWhatsapp = "https://t.me/benxsat";
+nomorWhatsapp = "https://t.me/giftvirtual";
 
 /*=========================*/
-</script><script> function play() {//Link Audio Bisa Diganti
-      var audio = new Audio('dekatutorial.github.io/musik/Cute.mp3'); audio.play();
-    } </script> </body> </html>
+</script><script> DekaTutorial(konten, musik, nomorWhatsapp); </script> </body> </html>
